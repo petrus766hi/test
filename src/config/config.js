@@ -1,4 +1,4 @@
 export default {
-    API_URL: 'https://fe.dev.dxtr.asia/api/', //dev
+    API_URL: 'http://backend.test.usenobi.com:8000/', //dev
 };
   

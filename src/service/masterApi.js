@@ -1,10 +1,15 @@
-import { get } from "./services";
+import { get, post } from "./services";
 
-export const Category = () => {
-    return get('category', false);
+export const list = () => {
+    return get('list', false);
 };
 
-export const Product = () => {
-    return get('products', false);
+export const login = (data) => {
+    return post('login', data, false);
 };
-  
+
+export const dashboard = (data) => {
+    return post('dashboard', data, false);
+};
+
+
